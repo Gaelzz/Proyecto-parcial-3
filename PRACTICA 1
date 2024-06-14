@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Datos</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times;
+            margin: 0;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPzQmT6BnTdrU2d9xL4pN8w_cIgR3_0UympQ&usqp=CAU');
+            background-position: center;
+            padding: 0;
+        }
+        h1 {
+            font-size: 25px;
+            text-align: center;
+        }
+        .color {
+            color: rgb(4, 207, 4);
+            padding: 20px;
+        }
+    }
+    @media (max-width: 1200px) {
+        body {
+            background-color: ;
+        }
+header {
+  background-color: #ffee07;
+  color: rgb(230, 11, 102);
+  padding: 1rem;
+}
+
+
+header h1 {
+  margin: 0;
+}
+
+
+nav a {
+  color: rgb(15, 185, 0);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+
+nav a:hover {
+  color: #070707;
+}
+
+
+footer {
+  background-color: #37e914;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  text-align: center;
+}
+/* Estilos para el formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+
+input,
+button {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+input {
+  border: 1px solid #0e942f;
+}
+
+
+button {
+  background-color: #0e942f;
+  color: #ffffff;
+}
+<form>
+    <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <label for="email">Correo:</label>
+    <input type="email" id="correo" name="correo" required>
+    <br>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required>
+    <br>
+    <button type="submit">Registrarse</button>
+</form>
+
+<form action="/action_page.php">
+    <input type="email" id="correo_ingreso" name="correo_ingreso" required>
+    <br>
+    <label for="password_ingreso">Contraseña:</label>
+    <input type="password" id="contrasena_ingreso" name="contrasena_ingreso" required>
+    <br>
+    <button type="submit">Ingresar a la página</button>
+</form>
+
+<footer>
+ <p>Ing. Ricardo Zubillaga, Inscripciones</p>
+  <p>Control Escolar Coacalco: 55 9198</p>
+  <p>Telefonos y horarios de atención:</p>
+  <p>coacalco@cecytem.mx</p>
+  
+  <p>Horario de atención de estudios, Reposición de credenciales, Orientación educativa:</p>
+  <p>Lunes a Viernes, 7:00am a 3:00pm</p>
+
+  <p>Sra. Lucia Baltazar, Becas y Servicio Social:</p>
+  <p>Horario de atención: Lunes a Viernes, 8:00am a 5:00pm</p>
+
+  <a href="http://vinculacion.cecytem.mx/">Vinculación</a>
+
+  <p>Orientación educativa:</p>
+  <p>Horario de atención: Lunes a Viernes, 7:00am a 3:00pm</p>
+</footer>
+    }
+   
