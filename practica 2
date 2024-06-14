@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO DE INGRESO DE DATOS</title>
+    <style>
+        body {
+            background-color: lightpink;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            background-position: bottom;
+            background-image: url(data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAADEAAADhCAMAAAAJbSJIAAAC...);
+            margin: 10;
+            padding: 10;
+            text-align: center;
+        }
+        h2 {
+            color: darkblue;
+        }
+        form {
+            margin: 10;
+            padding: 10;
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+        }
+        input {
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>REGISTRO</h2>
+    <form action="Registrar" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br>
+        <button type="submit">Registrarse</button>
+    </form>
+<form action="get" method="post">
+  <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <label for="correo">Correo electronico:</label>
+    <input type="email" id="correo" name="correo" required>
+    <br>
+    <label for="contraseña">Contraseña:</label>
+    <input type="password" id="contraseña" name="contraseña">
+    <br>
+    <button type="submit">Registrarse</button>
+</form>
+
+<h2>INGRESO</h2>
+
+<form action="#" method="#">
+    <label for="correo_ingreso">Correo Electronico:</label>
+    <input type="email" id= "correo_ingreso" name= "correo_ingreso">
+    <br>
+    <label for= "contrasena_ingreso">Contraseña:</label>
+    <input type="password" id="contrasena_ingreso" name="contrasena_ingreso">
+    <br>
+    <button type="submit">Ingresar</button>
+</form>
+</body>
+</html>
